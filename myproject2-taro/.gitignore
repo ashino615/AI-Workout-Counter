@@ -1,0 +1,40 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Ignore all images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Ignore all videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# Ignore virtual environment folders
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore ML model files
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.joblib
+*.pickle
+*.pkl

@@ -1,0 +1,403 @@
+{
+  "summary": {
+    "overall_accuracy": 0.7601851851851853,
+    "per_exercise_accuracy": {
+      "pushup": 0.7666666666666667,
+      "squat": 0.7777777777777779,
+      "armcurl": 0.7925925925925926,
+      "pullup": 0.7037037037037037
+    },
+    "total_tests": 36,
+    "high_error_cases": 14
+  },
+  "detailed_results": [
+    {
+      "exercise": "pushup",
+      "difficulty": "easy",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 128.0199723164485,
+      "confidence": 0.9172361891198688
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "easy",
+      "true_count": 10,
+      "detected_count": 10,
+      "avg_angle": 118.50025857447748,
+      "confidence": 0.8375085141741887
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "easy",
+      "true_count": 15,
+      "detected_count": 14,
+      "avg_angle": 131.25757646447946,
+      "confidence": 0.9115348517708651
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "medium",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 110.66819712857769,
+      "confidence": 0.6256727882026248
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "medium",
+      "true_count": 10,
+      "detected_count": 7,
+      "avg_angle": 108.24200798321876,
+      "confidence": 0.7712045396375476
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "medium",
+      "true_count": 15,
+      "detected_count": 12,
+      "avg_angle": 107.31028809001089,
+      "confidence": 0.6686812018038962
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "true_count": 5,
+      "detected_count": 3,
+      "avg_angle": 111.55551888988029,
+      "confidence": 0.6434589034416879
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "true_count": 10,
+      "detected_count": 6,
+      "avg_angle": 108.65245328125884,
+      "confidence": 0.6541564691445146
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "true_count": 15,
+      "detected_count": 10,
+      "avg_angle": 129.96080835095268,
+      "confidence": 0.5828060384315996
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "easy",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 151.49412800630492,
+      "confidence": 0.8887177605746278
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "easy",
+      "true_count": 10,
+      "detected_count": 11,
+      "avg_angle": 163.16956290389638,
+      "confidence": 0.8971096944675835
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "easy",
+      "true_count": 15,
+      "detected_count": 13,
+      "avg_angle": 161.10897004869508,
+      "confidence": 0.8260119714490952
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "medium",
+      "true_count": 5,
+      "detected_count": 3,
+      "avg_angle": 158.18719811378605,
+      "confidence": 0.7959499944696449
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "medium",
+      "true_count": 10,
+      "detected_count": 8,
+      "avg_angle": 140.15560613305385,
+      "confidence": 0.7345192077841167
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "medium",
+      "true_count": 15,
+      "detected_count": 12,
+      "avg_angle": 163.96125009443327,
+      "confidence": 0.7006112282046446
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "hard",
+      "true_count": 5,
+      "detected_count": 2,
+      "avg_angle": 145.70451228302983,
+      "confidence": 0.6790393776779655
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "hard",
+      "true_count": 10,
+      "detected_count": 9,
+      "avg_angle": 166.48744600983744,
+      "confidence": 0.5312429967109472
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "hard",
+      "true_count": 15,
+      "detected_count": 11,
+      "avg_angle": 145.79135383187952,
+      "confidence": 0.6711179535585453
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "easy",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 98.11538569553733,
+      "confidence": 0.8319582667128167
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "easy",
+      "true_count": 10,
+      "detected_count": 8,
+      "avg_angle": 98.20874736892685,
+      "confidence": 0.8239472914598829
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "easy",
+      "true_count": 15,
+      "detected_count": 14,
+      "avg_angle": 119.33576757242615,
+      "confidence": 0.8637124115157736
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "medium",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 91.68498805864776,
+      "confidence": 0.6597126120841481
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "medium",
+      "true_count": 10,
+      "detected_count": 8,
+      "avg_angle": 95.44476301507251,
+      "confidence": 0.6640185708908745
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "medium",
+      "true_count": 15,
+      "detected_count": 14,
+      "avg_angle": 107.32671084338357,
+      "confidence": 0.7571903674830993
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "hard",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 100.67549854190526,
+      "confidence": 0.5864281613029144
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "hard",
+      "true_count": 10,
+      "detected_count": 6,
+      "avg_angle": 106.52492046133118,
+      "confidence": 0.5588031253629481
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "hard",
+      "true_count": 15,
+      "detected_count": 10,
+      "avg_angle": 98.28113659123801,
+      "confidence": 0.6795512101114575
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "easy",
+      "true_count": 5,
+      "detected_count": 4,
+      "avg_angle": 0,
+      "confidence": 0.8357472667340683
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "easy",
+      "true_count": 10,
+      "detected_count": 9,
+      "avg_angle": 0,
+      "confidence": 0.9345747966113065
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "easy",
+      "true_count": 15,
+      "detected_count": 15,
+      "avg_angle": 0,
+      "confidence": 0.881938952999196
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "medium",
+      "true_count": 5,
+      "detected_count": 2,
+      "avg_angle": 0,
+      "confidence": 0.7103281178716475
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "medium",
+      "true_count": 10,
+      "detected_count": 7,
+      "avg_angle": 0,
+      "confidence": 0.7918582713929461
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "medium",
+      "true_count": 15,
+      "detected_count": 12,
+      "avg_angle": 0,
+      "confidence": 0.6339982191523681
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "true_count": 5,
+      "detected_count": 3,
+      "avg_angle": 0,
+      "confidence": 0.6096770482698405
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "true_count": 10,
+      "detected_count": 6,
+      "avg_angle": 0,
+      "confidence": 0.6609154333895041
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "true_count": 15,
+      "detected_count": 8,
+      "avg_angle": 0,
+      "confidence": 0.5453423070389904
+    }
+  ],
+  "error_analysis": [
+    {
+      "exercise": "pushup",
+      "difficulty": "medium",
+      "error_rate": 0.3,
+      "true_count": 10,
+      "detected_count": 7
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "error_rate": 0.4,
+      "true_count": 5,
+      "detected_count": 3
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "error_rate": 0.4,
+      "true_count": 10,
+      "detected_count": 6
+    },
+    {
+      "exercise": "pushup",
+      "difficulty": "hard",
+      "error_rate": 0.3333333333333333,
+      "true_count": 15,
+      "detected_count": 10
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "medium",
+      "error_rate": 0.4,
+      "true_count": 5,
+      "detected_count": 3
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "hard",
+      "error_rate": 0.6,
+      "true_count": 5,
+      "detected_count": 2
+    },
+    {
+      "exercise": "squat",
+      "difficulty": "hard",
+      "error_rate": 0.26666666666666666,
+      "true_count": 15,
+      "detected_count": 11
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "hard",
+      "error_rate": 0.4,
+      "true_count": 10,
+      "detected_count": 6
+    },
+    {
+      "exercise": "armcurl",
+      "difficulty": "hard",
+      "error_rate": 0.3333333333333333,
+      "true_count": 15,
+      "detected_count": 10
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "medium",
+      "error_rate": 0.6,
+      "true_count": 5,
+      "detected_count": 2
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "medium",
+      "error_rate": 0.3,
+      "true_count": 10,
+      "detected_count": 7
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "error_rate": 0.4,
+      "true_count": 5,
+      "detected_count": 3
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "error_rate": 0.4,
+      "true_count": 10,
+      "detected_count": 6
+    },
+    {
+      "exercise": "pullup",
+      "difficulty": "hard",
+      "error_rate": 0.4666666666666667,
+      "true_count": 15,
+      "detected_count": 8
+    }
+  ]
+}
